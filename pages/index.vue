@@ -1,13 +1,8 @@
 <template>
   <div>
-    <Logos mb-6 />
+    <!-- <Logos mb-6 /> -->
     <Suspense>
-      <template #loading>
-        <div op50 italic>
-          <span animate-pulse>Loading...</span>
-        </div>
-      </template>
-      <PageView />
+      <HomePage />
       <template #fallback>
         <div op50 italic>
           <span animate-pulse>Loading...</span>
