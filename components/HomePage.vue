@@ -14,7 +14,6 @@ const slides = ref(new Array(10).fill(0).map(() => {
   const contrast = r * 0.299 + g * 0.587 + b * 0.114 > 186 ? 'black' : 'white'
   return { bg: `rgb(${r}, ${g}, ${b})`, color: contrast }
 }))
-console.log(slides)
 </script>
 
 <template>
@@ -49,6 +48,7 @@ console.log(slides)
         <img :src="img" alt="">
       </SwiperSlide>
     </Swiper>
+    <ContrastImg mx-auto my-20 />
   </div>
 </template>
 
