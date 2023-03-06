@@ -17,6 +17,9 @@ export default defineNuxtConfig({
     reactivityTransform: true,
     inlineSSRStyles: false,
   },
+  extends: [
+    'nuxt-seo-kit',
+  ],
   css: [
     '@unocss/reset/tailwind.css',
   ],
@@ -52,6 +55,16 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     BASE_URL: process.env.BASE_URL,
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://example.com',
+      siteName: 'Elben SSR Demo',
+      siteDescription: 'Elben ssr demo site',
+      language: 'zh-CN',
+      titleSeparator: '·',
+      // Enabling Trailing Slash
+      trailingSlash: false,
+    },
+    indexable: true,
   },
   generate: {
     routes: [],
