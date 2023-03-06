@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <Logos mb-6 /> -->
     <Suspense>
       <HomePage />
       <template #fallback>

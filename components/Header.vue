@@ -17,10 +17,10 @@ function showPopup() {
       <div class="relative group">
         开放能力
         <div class="max-h-0 group-hover:max-h-screen top-10 left--2 transition-max-h duration-300 absolute w-25 rounded z-9 color-black bg-white py-1 text-14px shadow-2xl overflow-hidden box-border" children="block h-8 lh-8" hover:children="color-blue bg-#EEE">
-          <NuxtLink to="https://www.baidu.com">
+          <NuxtLink to="/album">
             图片直播
           </NuxtLink>
-          <NuxtLink to="https://www.baidu.com">
+          <NuxtLink to="/ai">
             AI修图
           </NuxtLink>
         </div>

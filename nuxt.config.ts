@@ -53,5 +53,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     BASE_URL: process.env.BASE_URL,
   },
+  generate: {
+    routes: [],
+  },
   pwa,
 })
