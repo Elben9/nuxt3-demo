@@ -8,7 +8,7 @@ useHead({
 
 <template>
   <VitePwaManifest />
-  <SeoKit />
+  <!-- <SeoKit /> -->
   <OgImageScreenshot />
   <NuxtLayout>
     <NuxtPage />

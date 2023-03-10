@@ -22,13 +22,13 @@ const go = () => {
       @keydown.enter="go"
     >
     <div>
-      <button
+      <!-- <button
         m-3 text-sm btn
         :disabled="!name"
         @click="go"
       >
         GO
-      </button>
+      </button> -->
     </div>
   </div>
 </template>
